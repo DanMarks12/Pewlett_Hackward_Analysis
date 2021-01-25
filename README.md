@@ -8,7 +8,9 @@ Pewlett Hackward is a massive company with aging employees. In order to get ahea
 From here, we were able to beging in pgAdmin and create our databases to hold our different DBs. We began by finding our employees who are retiring by joining our employee table and our titles table, looking at only employees born between 1952-1956. 
 ![](https://github.com/DanMarks12/Pewlett_Hackward_Analysis/blob/main/JPGs/retirement_titles_sql.PNG)
 Upon doing so we found our table included duplicate employees as some employees held multiple positions. So that we are not counting employees twice in our analysis we removed duplicates and created a unique title data which will be more useful for analysis.
+
 ![](https://github.com/DanMarks12/Pewlett_Hackward_Analysis/blob/main/JPGs/unique_titles_sql.PNG) 
+
 ![](https://github.com/DanMarks12/Pewlett_Hackward_Analysis/blob/main/JPGs/unique_titles.PNG)
 
 From here we are able to see that a large portion of our staff will be eligble for retirement in this time: 90,398 employees, 30.13% of the company!
@@ -16,10 +18,12 @@ From here we are able to see that a large portion of our staff will be eligble f
 By counting each title we are able to see that Senior Staff (28,255) and Senior Engineer (29,414). These are positions we need to look into developing mentorship programs to replace! 
 
 ![](https://github.com/DanMarks12/Pewlett_Hackward_Analysis/blob/main/JPGs/retiring_titles_sql.PNG)
+
 ![](https://github.com/DanMarks12/Pewlett_Hackward_Analysis/blob/main/JPGs/retiring_titles.PNG)
 
 From here we move into finding solutions. Two department managers suggested the possibility of creating mentorship programs in order to utilize our aging workforce while they are still here and help younger employees get ready to fill the role. 
 ![](https://github.com/DanMarks12/Pewlett_Hackward_Analysis/blob/main/JPGs/mentorship_eligibility_sql.PNG)
+
 ![](https://github.com/DanMarks12/Pewlett_Hackward_Analysis/blob/main/JPGs/mentorship_eligibility.PNG)
 
 At first we see that some employees are duplicated. This can be seen as a good and bad thing. For one, employees may be eligible to be mentors for multiple positions. On the other hand, after finding the unique employee numbers we find that we only have 1,549 eligble for our mentor ship program. With over 30k employees getting ready for retirement, it will be a scramble to have our 1.5k mentors train enough employees for the coming "tsunami"
