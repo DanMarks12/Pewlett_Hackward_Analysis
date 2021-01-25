@@ -1,5 +1,5 @@
 # Pewlett_Hackward_Analysis
-
+FINAL QUERIES ARE IN QUERIES FOLDER UNDER (Employee_Database_challenge.sql) FURTHER SCREENSHOTS SHOWN BELOW 
 ## Overview of the analysis:
 Pewlett Hackward is a massive company with aging employees. In order to get ahead of this, we are tasked with providing analysis on their current work force to create tables and groupings that will provide the company insight moving forward towards the companies "silver tsunami". Not only was it important for us to find employees who are approachign retirement, we need to look at management of these departments, and create mentorship programs so we can better handle the transfer of management moving into the future. We began our research by creating a schema which link all of our database to that we were able to create a relational database. 
 
